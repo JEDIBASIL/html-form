@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+form {
+  margin: 0 auto;
+  width: 560px;
+  padding: 30px;
+  min-height: 100vh;
+  background-color: whitesmoke;
+}
+form h1 {
+  margin-bottom: 30px;
+}
+form .form-content {
+  width: 500px;
+  margin-bottom: 30px;
+}
+form .form-content label {
+  display: block;
+  font-size: 18px;
+}
+form .form-content input {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  margin-top: 8px;
+  border-radius: 8px;
+  border: 1px solid gainsboro;
+}
+form .form-content .radio-checkbox-container {
+  display: flex;
+  gap: 30px;
+  margin-top: 8px;
+}
+form .form-content .radio-checkbox-container .radio-checkbox-content {
+  display: flex;
+}
+form .form-content .radio-checkbox-container input {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+form .form-content .radio-checkbox-container span {
+  font-size: 14px;
+}
+form button {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}/*# sourceMappingURL=form.css.map */
